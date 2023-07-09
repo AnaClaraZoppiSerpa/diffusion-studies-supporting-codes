@@ -1,0 +1,14 @@
+Key: 13 S-Boxes: 3 4 5
+id = 0x0 col = 16384
+id = 0x324 col = 48
+id = 0x328 col = 16
+id = 0x32c col = 64
+id = 0x724 col = 12
+id = 0x728 col = 4
+id = 0x72c col = 16
+id = 0xb24 col = 12
+id = 0xb28 col = 4
+id = 0xb2c col = 16
+id = 0xf24 col = 24
+id = 0xf28 col = 8
+id = 0xf2c col = 32

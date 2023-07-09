@@ -1,0 +1,723 @@
+EXPERIMENT IDENTIFICATION:  parameterized_ga 2023-06-20 19:14:10.326
+EXPERIMENT PARAMETERS
+{'order': 4, 'integer_upper_limit': 15, 'dimension': 2, 'field': <class 'galois.GF(2^4)'>}
+{'upper': 15, 'num_elites': 10, 'num_survivors': 10, 'tournament_size': 10, 'pairing_tournament_size': 10, 'initial_population_size': 40, 'max_iterations': 3, 'selection_num_parents': 20, 'mutation_prob': 0.5}
+{'initialization_f': <function random_initialization at 0x11d545a80>, 'selection_f': <function fitness_proportionate_selection at 0x11d5463e0>, 'pairing_f': <function randomized_sequential_pairing at 0x11d546660>, 'crossover_f': <function random_points_crossover3 at 0x11d5456c0>, 'mutation_f': <function mutation1 at 0x11d546ac0>, 'replacement_f': <function elitism at 0x11d5468e0>, 'fitness_f': <function fitness_2 at 0x11d544c20>}
+ITERATION 1 / 3
+n=40 mds=38 min=0.0 max=0.05555555555555555 sum=1.1564092239832058 avg=0.028910230599580145
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[10, 13], [6, 2]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[14, 2], [8, 10]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[8, 9], [11, 7]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[2, 14], [8, 6]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 2], [14, 2]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[14, 10], [9, 13]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[4, 7], [10, 15]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[1, 12], [2, 3]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 12], [15, 5]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 7], [2, 11]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[8, 14], [3, 4]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[4, 7], [11, 15]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[1, 13], [11, 10]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[12, 1], [7, 8]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[15, 12], [12, 2]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[14, 4], [5, 12]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[4, 5], [8, 12]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[2, 6], [1, 4]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 1], [13, 10]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 2], [6, 14]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[7, 7], [2, 9]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[5, 9], [7, 5]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[5, 13], [11, 6]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[2, 14], [10, 10]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[3, 5], [7, 14]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[3, 4], [8, 11]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[3, 13], [3, 8]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 15], [11, 13]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[13, 8], [10, 3]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[13, 11], [7, 15]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[15, 3], [1, 6]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[5, 7], [12, 7]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[10, 14], [3, 14]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 2], [14, 1]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[4, 6], [11, 13]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[8, 1], [10, 10]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[15, 2], [10, 11]]
+(population) MDS candidate present at iteration 0 ranking= WORSE
+[[13, 12], [2, 6]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[4, 7], [1, 12]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[5, 5], [12, 7]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[5, 13], [11, 6]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[5, 1], [12, 7]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[1, 2], [11, 14]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[5, 13], [6, 6]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 12], [6, 5]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 1], [15, 14]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[14, 1], [15, 12]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[14, 4], [5, 6]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[2, 1], [8, 12]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[1, 2], [14, 1]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[2, 14], [8, 6]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 2], [14, 2]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[7, 12], [12, 2]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[7, 7], [1, 9]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[7, 7], [2, 9]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[7, 13], [2, 9]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[10, 7], [6, 2]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[15, 3], [1, 6]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[10, 13], [6, 1]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[15, 2], [14, 2]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 3], [1, 1]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 5], [1, 12]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[4, 2], [14, 1]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 2], [8, 1]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[4, 5], [14, 12]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[9, 2], [1, 1]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[12, 1], [7, 8]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[12, 2], [7, 8]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 1], [6, 14]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[11, 9], [11, 7]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[8, 2], [6, 14]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[8, 13], [11, 8]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[3, 9], [3, 7]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[1, 5], [3, 8]]
+(offspring) MDS candidate present at iteration 0 ranking= WORSE
+[[3, 13], [8, 12]]
+ITERATION 2 / 3
+n=40 mds=37 min=0.0 max=0.0625 sum=1.33927922753162 avg=0.0334819806882905
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 6], [1, 4]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 12], [2, 3]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[15, 3], [1, 6]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 2], [14, 1]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[12, 1], [7, 8]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[11, 2], [14, 2]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[3, 13], [3, 8]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[7, 7], [2, 9]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[8, 1], [10, 10]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 14], [8, 6]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[4, 7], [1, 12]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 5], [12, 7]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 13], [11, 6]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 1], [12, 7]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 2], [11, 14]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 13], [6, 6]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[11, 12], [6, 5]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 1], [15, 14]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[14, 1], [15, 12]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[14, 4], [5, 6]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 1], [8, 12]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 2], [14, 1]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 14], [8, 6]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 2], [14, 2]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[7, 12], [12, 2]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[7, 7], [1, 9]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[7, 7], [2, 9]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[7, 13], [2, 9]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[10, 7], [6, 2]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[15, 3], [1, 6]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[10, 13], [6, 1]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[15, 2], [14, 2]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[11, 3], [1, 1]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[11, 5], [1, 12]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[4, 2], [14, 1]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 2], [8, 1]]
+(population) MDS candidate present at iteration 1 ranking= WORSE
+[[4, 5], [14, 12]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 1], [15, 14]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[7, 7], [1, 9]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[7, 7], [1, 8]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[3, 13], [3, 9]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 13], [11, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[3, 13], [3, 1]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[11, 1], [11, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 13], [6, 5]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 1], [6, 5]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[11, 12], [15, 1]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[15, 1], [15, 2]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 1], [14, 14]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[15, 1], [14, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 14], [8, 2]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[3, 1], [8, 8]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 14], [3, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 1], [3, 8]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[3, 13], [12, 7]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 1], [12, 1]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[15, 3], [1, 7]]
+(offspring) MDS candidate present at iteration 1 ranking= BETTER
+[[1, 2], [1, 1]]
+DISCOVERY!!!
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[15, 3], [14, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 14], [14, 1]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 2], [8, 1]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 14], [1, 4]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 6], [8, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 1], [6, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 6], [1, 4]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 13], [1, 4]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 1], [6, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 6], [6, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 13], [1, 4]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[5, 2], [6, 6]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 13], [14, 1]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[1, 2], [14, 1]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 6], [1, 4]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[10, 7], [6, 2]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[2, 6], [1, 4]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[10, 1], [15, 14]]
+(offspring) MDS candidate present at iteration 1 ranking= WORSE
+[[9, 1], [6, 1]]
+ITERATION 3 / 3
+n=40 mds=40 min=0.02631578947368421 max=0.2 sum=1.817134654615777 avg=0.04542836636539442
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 2], [14, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 3], [1, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 6], [1, 4]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 12], [2, 3]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[4, 2], [14, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 1], [8, 12]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[9, 2], [8, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 3], [1, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 3], [1, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[9, 2], [14, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[9, 1], [15, 14]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[7, 7], [1, 9]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[7, 7], [1, 8]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[3, 13], [3, 9]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 13], [11, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[3, 13], [3, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 1], [11, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 13], [6, 5]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[9, 1], [6, 5]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 12], [15, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 1], [15, 2]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[9, 1], [14, 14]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 1], [14, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 14], [8, 2]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[3, 1], [8, 8]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 14], [3, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 1], [3, 8]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[3, 13], [12, 7]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 1], [12, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 3], [1, 7]]
+(population) MDS candidate present at iteration 2 ranking= BETTER
+[[1, 2], [1, 1]]
+DISCOVERY!!!
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 3], [14, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 14], [14, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 2], [8, 1]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 14], [1, 4]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 6], [8, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 1], [6, 6]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 6], [1, 4]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 13], [1, 4]]
+(population) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 1], [6, 6]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[3, 13], [1, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 3], [1, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 14], [1, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 3], [1, 2]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 14], [8, 12]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 1], [8, 2]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 2], [8, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[4, 1], [14, 12]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[7, 7], [1, 8]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[4, 2], [14, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 2], [14, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[7, 7], [1, 8]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 1], [1, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 12], [2, 3]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 3], [1, 7]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 14], [2, 3]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 12], [3, 6]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 1], [3, 6]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 1], [6, 6]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 3], [1, 6]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[15, 3], [1, 4]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 6], [1, 5]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 13], [6, 4]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[5, 13], [6, 5]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 14], [8, 2]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 6], [8, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 14], [1, 4]]
+(offspring) MDS candidate present at iteration 2 ranking= BETTER
+[[1, 2], [1, 1]]
+DISCOVERY!!!
+(offspring) MDS candidate present at iteration 2 ranking= SAME
+[[1, 1], [1, 4]]
+DISCOVERY!!!
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 3], [1, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= BETTER
+[[1, 2], [1, 1]]
+DISCOVERY!!!
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[2, 14], [1, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 3], [1, 4]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[1, 14], [1, 4]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 1], [11, 6]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[11, 13], [3, 1]]
+(offspring) MDS candidate present at iteration 2 ranking= WORSE
+[[3, 1], [11, 6]]
+SUMMARY
+MDS better
+xor 2 xtime 1 baseline diff -3
+[[1, 2], [1, 1]]
+MDS same
+xor 2 xtime 2 baseline diff 0
+[[1, 1], [1, 4]]
+MDS worse
+xor 6 xtime 9 baseline diff 25
+[[10, 13], [6, 2]]
+xor 5 xtime 10 baseline diff 27
+[[14, 2], [8, 10]]
+xor 7 xtime 11 baseline diff 32
+[[8, 9], [11, 7]]
+xor 5 xtime 9 baseline diff 24
+[[2, 14], [8, 6]]
+xor 6 xtime 8 baseline diff 22
+[[11, 2], [14, 2]]
+xor 8 xtime 12 baseline diff 36
+[[14, 10], [9, 13]]
+xor 8 xtime 10 baseline diff 30
+[[4, 7], [10, 15]]
+xor 4 xtime 5 baseline diff 11
+[[1, 12], [2, 3]]
+xor 8 xtime 11 baseline diff 33
+[[9, 12], [15, 5]]
+xor 7 xtime 9 baseline diff 26
+[[9, 7], [2, 11]]
+xor 5 xtime 9 baseline diff 24
+[[8, 14], [3, 4]]
+xor 9 xtime 10 baseline diff 31
+[[4, 7], [11, 15]]
+xor 7 xtime 9 baseline diff 26
+[[1, 13], [11, 10]]
+xor 5 xtime 8 baseline diff 21
+[[12, 1], [7, 8]]
+xor 7 xtime 10 baseline diff 29
+[[15, 12], [12, 2]]
+xor 6 xtime 10 baseline diff 28
+[[14, 4], [5, 12]]
+xor 4 xtime 10 baseline diff 26
+[[4, 5], [8, 12]]
+xor 3 xtime 5 baseline diff 10
+[[2, 6], [1, 4]]
+xor 7 xtime 9 baseline diff 26
+[[11, 1], [13, 10]]
+xor 7 xtime 9 baseline diff 26
+[[11, 2], [6, 14]]
+xor 7 xtime 8 baseline diff 23
+[[7, 7], [2, 9]]
+xor 7 xtime 9 baseline diff 26
+[[5, 9], [7, 5]]
+xor 8 xtime 10 baseline diff 30
+[[5, 13], [11, 6]]
+xor 6 xtime 10 baseline diff 28
+[[2, 14], [10, 10]]
+xor 8 xtime 8 baseline diff 24
+[[3, 5], [7, 14]]
+xor 5 xtime 9 baseline diff 24
+[[3, 4], [8, 11]]
+xor 6 xtime 8 baseline diff 22
+[[3, 13], [3, 8]]
+xor 10 xtime 12 baseline diff 38
+[[9, 15], [11, 13]]
+xor 6 xtime 10 baseline diff 28
+[[13, 8], [10, 3]]
+xor 11 xtime 11 baseline diff 36
+[[13, 11], [7, 15]]
+xor 7 xtime 6 baseline diff 17
+[[15, 3], [1, 6]]
+xor 8 xtime 9 baseline diff 27
+[[5, 7], [12, 7]]
+xor 8 xtime 10 baseline diff 30
+[[10, 14], [3, 14]]
+xor 5 xtime 7 baseline diff 18
+[[9, 2], [14, 1]]
+xor 7 xtime 10 baseline diff 29
+[[4, 6], [11, 13]]
+xor 4 xtime 9 baseline diff 23
+[[8, 1], [10, 10]]
+xor 8 xtime 10 baseline diff 30
+[[15, 2], [10, 11]]
+xor 6 xtime 9 baseline diff 25
+[[13, 12], [2, 6]]
+xor 5 xtime 7 baseline diff 18
+[[4, 7], [1, 12]]
+xor 7 xtime 9 baseline diff 26
+[[5, 5], [12, 7]]
+xor 6 xtime 7 baseline diff 19
+[[5, 1], [12, 7]]
+xor 6 xtime 7 baseline diff 19
+[[1, 2], [11, 14]]
+xor 7 xtime 9 baseline diff 26
+[[5, 13], [6, 6]]
+xor 7 xtime 10 baseline diff 29
+[[11, 12], [6, 5]]
+xor 8 xtime 9 baseline diff 27
+[[9, 1], [15, 14]]
+xor 8 xtime 9 baseline diff 27
+[[14, 1], [15, 12]]
+xor 6 xtime 9 baseline diff 25
+[[14, 4], [5, 6]]
+xor 3 xtime 7 baseline diff 16
+[[2, 1], [8, 12]]
+xor 4 xtime 4 baseline diff 8
+[[1, 2], [14, 1]]
+xor 5 xtime 8 baseline diff 21
+[[9, 2], [14, 2]]
+xor 6 xtime 9 baseline diff 25
+[[7, 12], [12, 2]]
+xor 7 xtime 7 baseline diff 20
+[[7, 7], [1, 9]]
+xor 7 xtime 9 baseline diff 26
+[[7, 13], [2, 9]]
+xor 6 xtime 8 baseline diff 22
+[[10, 7], [6, 2]]
+xor 6 xtime 8 baseline diff 22
+[[10, 13], [6, 1]]
+xor 7 xtime 8 baseline diff 23
+[[15, 2], [14, 2]]
+xor 5 xtime 4 baseline diff 9
+[[11, 3], [1, 1]]
+xor 6 xtime 8 baseline diff 22
+[[11, 5], [1, 12]]
+xor 4 xtime 6 baseline diff 14
+[[4, 2], [14, 1]]
+xor 3 xtime 7 baseline diff 16
+[[9, 2], [8, 1]]
+xor 6 xtime 10 baseline diff 28
+[[4, 5], [14, 12]]
+xor 3 xtime 4 baseline diff 7
+[[9, 2], [1, 1]]
+xor 5 xtime 9 baseline diff 24
+[[12, 2], [7, 8]]
+xor 7 xtime 8 baseline diff 23
+[[11, 1], [6, 14]]
+xor 9 xtime 11 baseline diff 34
+[[11, 9], [11, 7]]
+xor 5 xtime 9 baseline diff 24
+[[8, 2], [6, 14]]
+xor 6 xtime 12 baseline diff 34
+[[8, 13], [11, 8]]
+xor 7 xtime 7 baseline diff 20
+[[3, 9], [3, 7]]
+xor 4 xtime 6 baseline diff 14
+[[1, 5], [3, 8]]
+xor 6 xtime 10 baseline diff 28
+[[3, 13], [8, 12]]
+xor 6 xtime 7 baseline diff 19
+[[7, 7], [1, 8]]
+xor 7 xtime 8 baseline diff 23
+[[3, 13], [3, 9]]
+xor 6 xtime 5 baseline diff 13
+[[3, 13], [3, 1]]
+xor 7 xtime 8 baseline diff 23
+[[11, 1], [11, 6]]
+xor 7 xtime 9 baseline diff 26
+[[5, 13], [6, 5]]
+xor 5 xtime 7 baseline diff 18
+[[9, 1], [6, 5]]
+xor 8 xtime 9 baseline diff 27
+[[11, 12], [15, 1]]
+xor 8 xtime 7 baseline diff 21
+[[15, 1], [15, 2]]
+xor 7 xtime 9 baseline diff 26
+[[9, 1], [14, 14]]
+xor 8 xtime 8 baseline diff 24
+[[15, 1], [14, 6]]
+xor 4 xtime 8 baseline diff 20
+[[2, 14], [8, 2]]
+xor 3 xtime 7 baseline diff 16
+[[3, 1], [8, 8]]
+xor 6 xtime 6 baseline diff 16
+[[1, 14], [3, 6]]
+xor 4 xtime 6 baseline diff 14
+[[5, 1], [3, 8]]
+xor 8 xtime 9 baseline diff 27
+[[3, 13], [12, 7]]
+xor 4 xtime 5 baseline diff 11
+[[5, 1], [12, 1]]
+xor 8 xtime 6 baseline diff 18
+[[15, 3], [1, 7]]
+xor 9 xtime 9 baseline diff 28
+[[15, 3], [14, 6]]
+xor 6 xtime 6 baseline diff 16
+[[1, 14], [14, 1]]
+xor 2 xtime 5 baseline diff 9
+[[2, 2], [8, 1]]
+xor 4 xtime 6 baseline diff 14
+[[2, 14], [1, 4]]
+xor 4 xtime 8 baseline diff 20
+[[2, 6], [8, 6]]
+xor 5 xtime 6 baseline diff 15
+[[5, 1], [6, 6]]
+xor 3 xtime 4 baseline diff 7
+[[1, 6], [1, 4]]
+xor 4 xtime 5 baseline diff 11
+[[1, 13], [1, 4]]
+xor 4 xtime 5 baseline diff 11
+[[2, 1], [6, 6]]
+xor 5 xtime 7 baseline diff 18
+[[2, 6], [6, 6]]
+xor 5 xtime 7 baseline diff 18
+[[5, 2], [6, 6]]
+xor 6 xtime 6 baseline diff 16
+[[1, 13], [14, 1]]
+xor 8 xtime 9 baseline diff 27
+[[10, 1], [15, 14]]
+xor 4 xtime 5 baseline diff 11
+[[9, 1], [6, 1]]
+xor 5 xtime 4 baseline diff 9
+[[3, 13], [1, 1]]
+xor 4 xtime 4 baseline diff 8
+[[2, 14], [1, 1]]
+xor 5 xtime 5 baseline diff 12
+[[11, 3], [1, 2]]
+xor 5 xtime 10 baseline diff 27
+[[2, 14], [8, 12]]
+xor 2 xtime 5 baseline diff 9
+[[2, 1], [8, 2]]
+xor 2 xtime 4 baseline diff 6
+[[1, 2], [8, 1]]
+xor 5 xtime 8 baseline diff 21
+[[4, 1], [14, 12]]
+xor 5 xtime 3 baseline diff 6
+[[15, 1], [1, 1]]
+xor 5 xtime 5 baseline diff 12
+[[1, 14], [2, 3]]
+xor 5 xtime 6 baseline diff 15
+[[1, 12], [3, 6]]
+xor 4 xtime 3 baseline diff 5
+[[1, 1], [3, 6]]
+xor 6 xtime 6 baseline diff 16
+[[15, 3], [1, 4]]
+xor 4 xtime 4 baseline diff 8
+[[1, 6], [1, 5]]
+xor 6 xtime 9 baseline diff 25
+[[5, 13], [6, 4]]
+xor 3 xtime 6 baseline diff 13
+[[2, 6], [8, 1]]
+xor 4 xtime 5 baseline diff 11
+[[1, 14], [1, 4]]
+xor 5 xtime 6 baseline diff 15
+[[11, 3], [1, 4]]
+xor 7 xtime 7 baseline diff 20
+[[11, 13], [3, 1]]
+xor 6 xtime 6 baseline diff 16
+[[3, 1], [11, 6]]
+MDS better 1, MDS same 1, MDS worse 120, total 160, ratio = 0.7625
