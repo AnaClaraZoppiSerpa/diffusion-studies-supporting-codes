@@ -10,10 +10,12 @@ Folders `diffusion_analysis_data` and `diffusion_analysis_code` refer to Chapter
 
 Folder `GA_code` refers to Chapters 7 and 8, containing the Genetic Algorithms implementation used in the work.
 
+Folder `MDS_tester` provides code to test a MDS matrix for MDS property and extract the information we present at the catalogue of Chapter 7.
+
 Finally, folder `GA_example_experiment_logs` contains three examples of log files from my experiments, so that readers can see what a log file looks like and gain a better understanding of the practical experiments conducted, since making all the logs available would require too much storage.
 
 I believe these codes and data are the most relevant to complement my thesis.
 
-If you are interested in other auxiliary scripts and code I used, for example, scripts I used to check MDS matrices from the literature and build the catalogue of Chapter 7, they are available at [this other repo](https://github.com/AnaClaraZoppiSerpa/Research). However, that repo is VERY messy, since I basically dumped everything there for ~2.5 years for backup purposes.
+If you are interested in other auxiliary scripts and code I used, for example, scripts I used to check MDS matrices from the literature and build the catalogue of Chapter 7, scripts to get a circulant matrix from the first row, or other constructions, they are available at [this other repo](https://github.com/AnaClaraZoppiSerpa/Research). However, that repo is VERY messy, since I basically dumped everything there for ~2.5 years for backup purposes.
 
 That said, if you have any questions about my work or my codes feel free to contact me (anaclara.zoppiserpa@gmail.com) and I'll try to help you. Thanks for the interest in my work!
