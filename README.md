@@ -1,5 +1,4 @@
-# Study of Diffusion and MDS Matrices in Symmetric
-Block Ciphers (supporting codes)
+# Study of Diffusion and MDS Matrices in Symmetric Block Ciphers (supporting codes)
 
 Hello, my name is Ana Clara, and welcome to this repo. The goal of this repo is to keep supporting codes and data regarding my research work, **Study of Diffusion and MDS Matrices in Symmetric Block Ciphers**. 
 
